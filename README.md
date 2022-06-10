@@ -1,4 +1,4 @@
-# Data_cleaning
+# Limpieza de datos
 Proceso para limpieza de datos:
 
 Conceptos previos:
@@ -16,13 +16,30 @@ datos extraidos desde:
     https://www.kaggle.com/datasets/sidharth178/customer-segmentation
     https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation
 
+<h3>Descripción de datasets:</h3>
+
+    bank_transactions.csv
+    
+        This dataset consists of 1 Million+ transaction by over 800K customers for a bank in India. The data contains information such as - customer age   (DOB), location, gender, account balance at the time of the transaction, transaction details, transaction amount, etc.
 
 
-Proceso para limpieza de datasets:
+    german_credit_data.csv
+        segmentation of German bank customers.
+    
+    
+    customer_segmentation.csv
+        This case requires to develop a customer segmentation to give recommendations like saving plans, loans, wealth management, etc. on target customer groups. The sample Dataset summarizes the usage behavior of about nearly 1000 active credit card holders during the last 6 months.
+                            
+    
+    
+    
+
+<h2>Proceso para limpieza de datasets:</h2>
+
 (la ejecución de cada paso se muestra en el notebook  'limpieza_datos')
 
 
-1. Se importan las libreria a utilizar para la exploracion y manipulación de datos:
+Se importan las libreria a utilizar para la exploracion y manipulación de datos:
 
  Importar librerias necesarias (en escenario se usó exclusivamente pandas).
  configurar pandas para que muestre todas las columnas del dataset.
@@ -77,7 +94,7 @@ Proceso para limpieza de datasets:
     los datos limpios se encuestran en la carpeta: data/datos_limpios
 
 
-fuentes y recusos complementarios:
+<h3>fuentes y recusos complementarios:</h3>
 
     https://pandas.pydata.org/docs/
     https://blog.hubspot.es/marketing/limpieza-de-datos
