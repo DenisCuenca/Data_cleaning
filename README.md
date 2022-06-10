@@ -34,15 +34,16 @@ datos extraidos desde:
     
     
 
-<h2>Proceso para limpieza de datasets:</h2>
+<h2>Proceso de limpieza de datasets:</h2>
 
 (la ejecución de cada paso se muestra en el notebook  'limpieza_datos')
 
 
-Se importan las libreria a utilizar para la exploracion y manipulación de datos:
+Se importan las libreria a utilizar para exploracion y manipulación de datos:
 
- Importar librerias necesarias (en escenario se usó exclusivamente pandas).
- configurar pandas para que muestre todas las columnas del dataset.
+ Importar librerias necesarias (pandas).
+ configurar pandas para que despliegue todas las columnas del dataset.
+ 
  Lectura de archivos a procesar.
 
  Proceso para limpieza de bank_transactions Dataset
@@ -68,7 +69,7 @@ Se importan las libreria a utilizar para la exploracion y manipulación de datos
 
 
 
-    Proceso para limpieza de customer_segmentation dataset
+    Proceso de limpieza para customer_segmentation dataset
 
 
      Conteo de valores nulos en las columnas del dataset
@@ -79,7 +80,7 @@ Se importan las libreria a utilizar para la exploracion y manipulación de datos
 
 
 
-    Proceso para limpieza de german_credit dataset
+    Proceso de limpieza para german_credit dataset
 
      Conteo de valores nulos en el dataset
      Conteo de valores categoricos en la columna 'Saving accounts'
@@ -91,10 +92,11 @@ Se importan las libreria a utilizar para la exploracion y manipulación de datos
 
     Exportación de datos procesados:
 
-    los datos limpios se encuestran en la carpeta: data/datos_limpios
+    (los datos limpios se encuestran en la carpeta: data/datos_limpios)
+    nota: respandos de los datasets origuinales se almacenarón en la carpeta 'data/tmp'
 
 
-<h3>fuentes y recusos complementarios:</h3>
+<h3>fuente y recusos complementarios:</h3>
 
     https://pandas.pydata.org/docs/
     https://blog.hubspot.es/marketing/limpieza-de-datos
